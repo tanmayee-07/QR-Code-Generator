@@ -10,7 +10,7 @@
 - We need to add query parameters to the url:
 
 1. cht=qr is for the QR code
-2. chs=<width>*<height> for image size
+2. chs=width x height for image size
 3. chl=data for data to encode. It can be digits, alphanumeric characters or binary bytes.
 
 eg: https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=Hello
